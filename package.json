@@ -1,6 +1,6 @@
 {
   "name": "ting-cli",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "description": "Auto generate ting project template",
   "main": "index.js",
   "bin": {
@@ -26,7 +26,9 @@
   "homepage": "https://github.com/wangzhongyu1009/ting-cli#readme",
   "dependencies": {
     "commander": "^2.20.0",
+    "fs": "^0.0.1-security",
     "git-clone": "^0.1.0",
+    "inquirer": "^6.2.2",
     "shelljs": "^0.8.3",
     "tracer": "^0.9.8"
   }
