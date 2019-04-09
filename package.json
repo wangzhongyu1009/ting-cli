@@ -1,0 +1,33 @@
+{
+  "name": "ting-cli",
+  "version": "1.0.0",
+  "description": "Auto generate ting project template",
+  "main": "index.js",
+  "bin": {
+    "ting-cli": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangzhongyu1009/ting-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "vue",
+    "pc"
+  ],
+  "author": "wangzhongyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangzhongyu1009/ting-cli/issues"
+  },
+  "homepage": "https://github.com/wangzhongyu1009/ting-cli#readme",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "git-clone": "^0.1.0",
+    "shelljs": "^0.8.3",
+    "tracer": "^0.9.8"
+  }
+}
