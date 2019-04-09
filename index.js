@@ -15,7 +15,7 @@ program
         log.info('目前ting-cli支持webpack模板，示例：ting-cli init myproject --webpack')
         if (tpl && project) {
             let pwd = shell.pwd()
-            let url = `https://github.com/aaa.git`;
+            let url = `https://github.com/wangzhongyu1009/ting-base.git`;
             log.info(`正在${url}拉取模板代码 ...`)
             clone(url, pwd + `/${project}`, null, function() {
                 shell.rm('-rf', pwd + `/${project}/.git`)
